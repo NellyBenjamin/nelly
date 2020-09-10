@@ -2,68 +2,164 @@
 <html>
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>online butcher </title>
-<style>
- body{
-     margin: 0;
-     background-color: rosybrown;
-
- }  
- .header {
-     background:rosybrown ;
-     color:black;
-     text-align: center;
-     padding:20px;
- }
- .navbar{
-     background-color:tomato ;
-     overflow: hidden;
- }
- .navbar a{
-     color:rosybrown
-     display: block;
-     text-align: center;
-     text-decoration: none;
-     padding: 14px 12px;
-     float: left;
- }
- .navbar a:hover{
-     background-color: rosybrown;
-     color: black;
- }
- .image img{
-     width: 90%;
-     height:100px ;
- }
- .footer{
-     background-color: tomato;
-     color: red;
-     width:100%;
-     text-align: center;
- }
-</style>
+<link rel="stylesheet"href="./style.css">
 </head>
 <body>
     <div class="header">
-        <h1>ONLINE BUTCHER</h1>
-        <p><h3>we set the simple mission to encourage people</h3></p>
+        <h1 style = "font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif">ONLINE BUTCHER</h1>
+        <p><h2>we set the simple mission to encourage people</h2></p>
         <p><h3>eat better meat for your health</h3></p>
     </div><!--header ends here-->
+  
     <div class="navbar">
-    <a href="image.html">image</a>
-    <a href="index.html">index</a>
-    <a href="about.html">about</a>
-    <a href="contact">contact</a>
+        <a href="#">home</a>
+        <a href="#buy">service</a>
+        <a href="#aboutus">about</a>
+        <a href="#contact">contact</a>
     </div><!--navbar ends here-->
-    <div style="display: flex;"> 
-        <img src="./image/abby.jpg"style="width;60%;height:300px;">
-        <img src="./image/bones fillet.jpg"style="width;60%;height:300px;">
-    </div><!---this is an image-->
-            <h3>online meat available</h3>
-            <p>buying meat online with us is not same as other online butcher from the field to folk,everthing has been don to make sure its not just better meat,but the ever best meat delivery you will receive.thats means the use of small,traditional farms and out door reared flock and heards to their full potential on lush pastures,and the crafting of all produce on the butcher's bloock by hand for the prfect finish   </p>
+
+    <div style="display: flex; align-items:center; justify-content: center; background-image: url(./image/rosa.jpg); background-repeat: no-repeat; background-size: cover; width: 100%; height: 400px;">
+        <h1 style="color:whitesmoke;background-color:#2d2d2d ; text-align: center;">
+            Quality should never be a question  we're on mission to deliver 
+            and give quality and convinience that adds something great to make your day </h1> 
+    </div><!---this is an image--> 
+
+
+    <div class="row bgcolor">
+    <div class="column">
+     <h1>GET FRESH MEAT DAILY</h1>
+     <br>
+      <p>Our meat deliver service is second to none when it comes to quality
+          and selection.within our online meat market,you'll find full of range of proteins 
+          variety of cuts with many options for custom trimmiing and cutting
+          we work closely with farms to source responsibly and offer products thats are raised according to higher 
+          standards,with an expensive selection of meats that are organic,pasture-raised,
+          and never given hormonies or antibiotics.our meat delivery service
+           offers the same experience as you would get at a top-notch butcher,plus we'll deliver everything to your door. 
+      </p>
+      <a href="#buy"><button class="btn">BUY NOW</button></a>
+    </div>
+    <div class="column">
+        <img src="./image/FILLET.jpg" class="roundedImg"> 
+    </div> 
+</div>
+
+<h1 class="centered" id="buy" style="padding: 50px 0px;">BUY OUR PRODUCTS</h1>
+<div class="row">
+    <div class="product">
+        <img src="./image/porter house.jpg">
+        <div class="product-row">
+        <div class="column">
+        <h3>Fillet</h3>
+        <p>Price: 12,000TZS</p>
+        </div>
+        <div class="column">
+        <a href="services.html"><button class="orderBtn">BUY</button></a>
+        </div>
+    </div>
+    </div>
+    <div class="product">
+        <img src="./image/scotch fillet.jpg">
+        <div class="product-row">
+        <div class="column">
+        <h3>scotch</h3>
+        <p>Price: 12,000TZS</p>
+        </div>
+        <div class="column">
+        <a href="services.html"><button class="orderBtn">BUY</button></a>
+        </div>
+    </div>
+    </div>
+    <div class="product">
+        <img src="./image/mutton goat liver.jpg">
+        <div class="product-row">
+        <div class="column">
+        <h3> liver</h3>
+        <p>Price: 10,000TZS</p>
+        </div>
+        <div class="column">
+        <a href="services.html"><button class="orderBtn">BUY</button></a>
+        </div>
+    </div>
+    </div>
+    <div class="product">
+        <img src="./image/shn meat.jpg">
+        <div class="product-row">
+        <div class="column">
+        <h3>bone fillet</h3>
+        <p>Price: 12,000TZS</p>
+        </div>
+        <div class="column">
+        <a href="services.html"><button class="orderBtn">BUY</button></a>
+        </div>
+    </div>
+    </div>
+</div>
+
+<div class = "row">
+    <div class = "column centered">
+            <h1 style="padding: 50px 0px;">ABOUT ONLINE BUTCHER</h1>
+             <p>buying meat online with us is not same as other online butcher from the field to folk,everthing has been done to make sure
+                  its not just better meat,but the ever best meat delivery you will receive.
+                thats means the use of small,traditional farms and out door reared flock and heards to their full potential on lush pastures,
+                and the crafting of all produce on the butcher's block by hand for the prfect finish</p>
+     </div><!--first colum ends here-->
+</div>
+<div class="row bgcolor">
+    <div class="column">
+    <img src="./image/Nellyr.jpg"class="roundedImg">
+    </div>
+    
+    
+    <div class="column">
+        <h1>Meet The Founder</h1><br>
+        <h4>NELLY BENJAMIN</h4>
+        <br>
+        <p>She got the idea of starting online butcher after seeing there is a challange of getting 
+        steak meat and also some of her friends they ware struglle to gate fresh meat in their society
+        so she decided to start an online butcher to solve that challange in their society,and also she  want to give a fresh meat from farms
+        and deliver up to door. 
+    </p>
+    </div>
+    </div>
+
+<div class="row centered contact" id="contact">
+    <div class="column">
+        <h1>GET IN TOUCH</h1>
+        <p>Phone: 0754298743</p>
+        <p>Mobile: 0656470134</p>
+        <p>S.L.P 5739, Dar es saalam</p>
+        <p>Address: gongolamboto,pugu,kigogo fresh</p> 
+        <p>Website: www.onlinebutcher.com</p>
+    </div>
+    <div class="column">
+        <div class="about">
+            <h1>Contact Us</h1><br>
+    <label>your name<br> 
+        <input type="text require"><br>
+    </label>
+    <label>your e mail <br>
+        <input type="text required"> <br> 
+    </label>
+    <label>phone number<br>
+    <input type="text required"><br>
+    </label>
+    <label>your comment<br>
+    <textarea></textarea><br><br>
+    <button class="sendbtn">send</button>
+</div>
+</div>
+</div>
+
+
+<iframe width="100%" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=gongolamboto&t=&z=19&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+
+
+
     <div class="footer">
-        <p> www.online butcher com<butcher></p>
+        <p><i>all right are received</i></p>
     </div>
 </body>
 </html>
-  

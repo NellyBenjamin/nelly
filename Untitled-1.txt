@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>services</title>
+<meta charset="utf-8">
+<link rel="stylesheet"href="./style.css"></rel>
+</head>
+<body>
+    <div class="header">
+        <h3><b>OUR SERVICES</b></h3>
+        <p><b><i>How can we help you</i></b></p>
+    </div><!--header ends here-->
+    
+    <div class="row">
+        <div class="colum">
+            <h3><b>we are ready to  serve you </b></h3>
+            <p>we are always read to serve you what you want and and give you what you deserve   </p>
+    </div>
+    <div class="colum">
+        <h3><b>why we care</b></h3>
+<p> we care to give you the great services </p>
+    </div>
+    </div><!---div colum ends here-->
+    <div class="footer">
+        <p>dont copy all right are reserved</p>
+        <div class="navbar">
+            <a href="home decoration.html">home</a>
+            <a href="aboutus.html">about</a>
+            <a href="contactus">contact</a>
+            </div><!--navbar ends here-->
+    </div>
+</body>
+</html>
+    
