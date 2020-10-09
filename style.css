@@ -1,4 +1,4 @@
-*{
+   *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -96,12 +96,27 @@ height: 300px;
     background-color:#888 ;
 
 }
-.input,textarea{
+input,textarea{
     border-radius:5px;
     border: 1px solid #888;
     background-color:whitesmoke;
     height: 40px;
+    padding: 10px 20px;
+    width: 500px;;
 }
+form{
+    border-radius: 5px;
+    border-color: tomato;
+    margin: 0px 10px;
+    padding: 20px;
+}
+.sendBtn{
+    text-align: center;
+    padding: 10px 20px;
+    background-color: whitesmoke;
+    border: 1px solid tomato;
+}
+
 .footer{ 
     background-color:black;
     color:cornsilk;
